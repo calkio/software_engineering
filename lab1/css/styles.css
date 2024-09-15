@@ -14,11 +14,20 @@
   font-weight: 100;
 }
 @font-face {
-  font-family: "InterThinBold";
+  font-family: "InterBold";
   src: url("../fonts/InterBold/InterBold.eot");
   src: url("../fonts/InterBold/InterBold.eot?#iefix")format("embedded-opentype"),
     url("../fonts/InterBold/InterBold.woff") format("woff"),
     url("../fonts/InterBold/InterBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "InterRegular";
+  src: url("../fonts/InterRegular/InterRegular.eot");
+  src: url("../fonts/InterRegular/InterRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InterRegular/InterRegular.woff") format("woff"),
+    url("../fonts/InterRegular/InterRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: 100;
 }
@@ -40,7 +49,7 @@ header {
 }
 
 .main_text_header {
-  font-family: "InterThinBold";
+  font-family: "InterBold";
   font-size: 80px;
   color: #000000;
   text-align: left;
@@ -63,7 +72,7 @@ header {
 }
 
 .tabs_text {
-  font-family: "InterThinBold";
+  font-family: "InterBold";
   font-size: 14px;
   text-align: center;
   vertical-align: middle;
@@ -84,3 +93,77 @@ header {
   color: #FFFFFF;
   border: 0px;
 }
+
+
+.carts {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.cart_orange {
+  align-content: space-between;
+  display: grid;
+  height: 450px;
+  width: 400px;
+  background: linear-gradient(96deg, #FFC95D, #FC7C05);
+  border-radius: 50px;
+  color: white;
+  padding: 30px;
+}
+
+.cart_white {
+  align-content: space-between;
+  display: grid;
+  height: 450px;
+  width: 400px;
+  background: #ffffff;
+  border: 1px solid #BBBBBB;
+  border-radius: 50px;
+  color: #000000;
+  padding: 30px;
+}
+
+.cart_purple {
+  align-content: space-between;
+  display: grid;
+  height: 450px;
+  width: 400px;
+  background: linear-gradient(96deg, #BE67D9, #5E27FC);
+  border-radius: 50px;
+  color: white;
+  padding: 30px;
+}
+
+.cart_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart_header p {
+  vertical-align: middle;
+  font-family: "InterRegular";
+  font-size: 20px;
+}
+
+
+.cart_body h2{
+  font-weight: 500;
+  font-family: "InterRegular";
+  font-size: 32px;
+}
+
+.cart_body p {
+  font-family: "InterRegular";
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
