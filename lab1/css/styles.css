@@ -13,13 +13,21 @@
   font-style: normal;
   font-weight: 100;
 }
+@font-face {
+  font-family: "InterThinBold";
+  src: url("../fonts/InterBold/InterBold.eot");
+  src: url("../fonts/InterBold/InterBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InterBold/InterBold.woff") format("woff"),
+    url("../fonts/InterBold/InterBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+}
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 .left_part_header {
@@ -31,14 +39,22 @@ header {
   width: 50%;
 }
 
+.main_text_header {
+  font-family: "InterThinBold";
+  font-size: 80px;
+  color: #000000;
+  text-align: left;
+  vertical-align: middle;
+}
+
 .tabs_ul {
   position: absolute;
-  top: -20px;
+  bottom: -20px;
   right: 0;
 }
 
 .tabs_li {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid #BBBBBB;
   border-radius: 30px;
   height: 30px;
@@ -47,11 +63,10 @@ header {
 }
 
 .tabs_text {
-  font-family: "InterThin";
+  font-family: "InterThinBold";
   font-size: 14px;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
   height: 100%;
 }
 
