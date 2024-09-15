@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Код для подключения шрифта в /css/styles.css */
+@font-face {
+  font-family: "InterThin";
+  src: url("../fonts/InterThin/InterThin.eot");
+  src: url("../fonts/InterThin/InterThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/InterThin/InterThin.woff") format("woff"),
+    url("../fonts/InterThin/InterThin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.left_part_header {
+  width: 50%;
+}
+
+.right_part_header {
+  position: relative;
+  width: 50%;
+}
+
+.tabs_ul {
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.tabs_li {
+  background-color: #FFFFFF;
+  border: 1px solid #BBBBBB;
+  border-radius: 30px;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.tabs_text {
+  font-family: "InterThin";
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  height: 100%;
+}
+
+.tabs_position {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.tabs_li:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 0px;
+}
