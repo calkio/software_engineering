@@ -166,4 +166,16 @@ header {
 }
 
 
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 10px;
+}
 
+footer p {
+  text-decoration: underline;
+  justify-self: start;
+  font-family: "InterRegular";
+  font-size: 14px;
+  color: #000000;
+}
