@@ -10,7 +10,7 @@ const HeaderHome = () => {
       <Button className={styles.button}>Новая задача</Button>
 
       <Button className={styles.button} asChild>
-        <Link href="/login">Login</Link>
+        <Link href="/login">Зарегистрироваться</Link>
       </Button>
 
       <Avatar className={styles.button}>
