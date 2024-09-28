@@ -22,19 +22,19 @@ const TableTask: React.FC<TaskTableProps> = ({ tasks }) => {
     <Table>
       <TableHeader>
         <TableRow>
-          <TableHead className={`${style.background_header} w-[100px]`}>Название</TableHead>
-          <TableHead className={style.background_header}>Описание</TableHead>
-          <TableHead className={`${style.background_header} w-[100px]`}>Статус</TableHead>
-          <TableHead className={`${style.background_header} text-center w-[100px]`}>Редактировать</TableHead>
+          <TableHead className='w-[100px]'>Название</TableHead>
+          <TableHead>Описание</TableHead>
+          <TableHead className='w-[100px]'>Статус</TableHead>
+          <TableHead className={`text-center w-[100px]`}>Редактировать</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
         {tasks.map((task) => (
           <TableRow key={task.id}>
-            <TableCell className={style.background_body}>{task.title}</TableCell>
-            <TableCell className={style.background_body}>{task.description}</TableCell>
-            <TableCell className={style.background_body}>{task.status}</TableCell>
-            <TableCell className={`${style.background_body} text-right`}>
+            <TableCell>{task.title}</TableCell>
+            <TableCell>{task.description}</TableCell>
+            <TableCell>{task.status}</TableCell>
+            <TableCell className='text-right'>
             <ButtonEditTask task={task} />
         </TableCell>
           </TableRow>
