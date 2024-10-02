@@ -1,0 +1,19 @@
+.background_header {
+  color: #ffffff;
+  background: #ffffff55;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.background_body {
+  color: #ffffff;
+  background: #ffffff26;
+  font-size: 16px;
+}
+
+.background_footer {
+  color: #ffffff;
+  background: #ffffff00;
+  font-size: 16px;
+  font-weight: bold;
+}

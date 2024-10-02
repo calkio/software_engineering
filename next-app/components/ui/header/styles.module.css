@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.button_exit {
+  margin-left: 20px;
+  background-color: #000000;
+}
+
+.button {
+  margin-left: 20px;
+  background-color: #000000;
+}
+
+.button:hover {
+  background-color: #4b4b4b;
+}
+
